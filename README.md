@@ -72,6 +72,9 @@ geth --nodiscover  --rpc  --datadir data0 --port "30303" --rpcapi "db,eth,net,we
 ### 命令
 当前所有命令与以太坊相关命令一致，用户可以参考以太坊命令。参考，[以太坊基本命令](https://blog.csdn.net/wo541075754/article/details/53073799)
 
+## 贡献
+欢迎广大开发爱好者人加入我们的项目，参与SAC链的迭代开发。
+
 
 
 
