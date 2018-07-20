@@ -9,7 +9,7 @@ SAC：全称为Smart Application Chain, 即智能应用链，旨在打造区块�
 该项目是基于GO语言进行编译运行的一套程序，故所有节点需要搭建一套GO语言的开发环境并且安装gcc编译器。
 
 ### 编译
-| Command    | Description |
+| 系统       |  说明        |
 |:----------:|-------------|
 | **`Windows`** |安装git，进入cmd/geth目录，执行go build ./... 。相应的可执行文件在该目录下生成（即geth.exe）。|
 | `Linux` |进入根目录执行make，编译完毕可在builg/bin目录下生成可执行文件geth。|
@@ -53,6 +53,26 @@ geth init genesis.json --datadir data0
 ```
 
 ### 运行
+```
+geth --nodiscover  --rpc  --datadir data0 --port "30303" --rpcapi "db,eth,net,web3,miner,personal" --rpcport "8545" --rpcaddr "localhost" --networkid "2673" console 2>>chain.log
+```
+
+| 字段       |  说明        |
+|:----------:|-------------|
+| **`nodiscover`** |安装git，进入cmd/geth目录，执行go build ./... 。相应的可执行文件在该目录下生成（即geth.exe）。|
+| `rpc` |进入根目录执行make，编译完毕可在build/bin目录下生成可执行文件geth。
+| `datadir `|设置当前区块链网络数据存放的位置|
+| `port `|网络监听端口|
+| `rpcapi `|设置允许连接的rpc的客户端|
+| `rpcport`|设置允许连接的rpc的客户端|
+| `rpcaddr`|rpc接口的地址 |
+| `networkid`|设置当前区块链的网络ID，用于区分不同的网络|
+| `console`|启动命令行模式，|
+
+### 命令
+当前所有命令与以太坊相关命令一致，用户可以参考以太坊命令。参考，[以太坊基本命令](https://blog.csdn.net/wo541075754/article/details/53073799)
+
+
 
 
 
