@@ -11,8 +11,8 @@ SAC：全称为Smart Application Chain, 即智能应用链，旨在打造区块�
 ###编译
 | Command    | Description |
 |:----------:|-------------|
-|**`Windows`**|安装git，进入cmd/geth目录，执行go build ./... 。相应的可执行文件在该目录下生成（即geth.exe）。
-|**`Linux`**|进入根目录执行make，编译完毕可在builg/bin目录下生成可执行文件geth。
+| **`Windows`** |安装git，进入cmd/geth目录，执行go build ./... 。相应的可执行文件在该目录下生成（即geth.exe）。
+| `Linux` |进入根目录执行make，编译完毕可在builg/bin目录下生成可执行文件geth。
 
 
 
